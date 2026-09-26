@@ -29,12 +29,19 @@ O protótipo não utiliza API, framework, banco de dados ou dependências extern
 
 ## Como executar
 
+### Pré-requisitos
+
+- Navegador moderno;
+- Git para clonar o projeto;
+- Python 3 apenas se você optar pelo servidor local.
+
 ### Abertura direta
 
 No PowerShell:
 
 ~~~powershell
-cd "C:\Users\lucas\OneDrive\Área de Trabalho\ATVD FAUNA"
+git clone https://github.com/LimpotRed/APP_ControleFauna.git
+cd APP_ControleFauna
 Start-Process .\index.html
 ~~~
 
@@ -43,7 +50,6 @@ Start-Process .\index.html
 Com Python instalado:
 
 ~~~powershell
-cd "C:\Users\lucas\OneDrive\Área de Trabalho\ATVD FAUNA"
 py -m http.server 8000
 ~~~
 
