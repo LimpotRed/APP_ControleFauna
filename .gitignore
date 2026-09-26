@@ -1,0 +1,16 @@
+# Perfis temporários usados na geração das capturas
+prints/edge-capture-profile/
+prints/edge-profile-fauna/
+
+# Cópia intermediária mantida apenas no ambiente local
+MONITORAMENTO_AMBIENTAL_APPSHEET_CORRIGIDO.xlsx
+
+# Arquivos temporários do Office e do sistema
+~$*.xlsx
+Thumbs.db
+.DS_Store
+
+# Cache e ambientes locais
+__pycache__/
+.venv/
+node_modules/
